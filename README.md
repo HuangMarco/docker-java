@@ -7,6 +7,7 @@
 * Maven
     See [here](https://github.com/HuangMarco/knowledge-hub/blob/dev/linux-operation/linux_installation_softwares_components.md)
 * Docker
+* Java
 
 ## Download the souce code
 Use git to pull the source code, then in the root directory:
@@ -47,3 +48,8 @@ http://containertutorials.com/docker-compose/spring-boot-app.html
 About the project.build.directory:
 https://stackoverflow.com/questions/13354531/maven-project-build-directory
 C5271838
+
+
+<br>
+API level to interact with docker:
+https://www.baeldung.com/docker-java-api
