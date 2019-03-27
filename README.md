@@ -19,3 +19,12 @@ https://stackabuse.com/docker-a-high-level-introduction/
 fabric8io/docker-maven-plugin:
 https://github.com/fabric8io/docker-maven-plugin
 
+<br>
+Another guide for docker for java:
+http://containertutorials.com/docker-compose/spring-boot-app.html
+
+
+<br>
+About the project.build.directory:
+https://stackoverflow.com/questions/13354531/maven-project-build-directory
+C5271838
