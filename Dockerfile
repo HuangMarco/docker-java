@@ -1,5 +1,7 @@
 FROM java:8-jdk-alpine
 
+EXPOSE 8080
+
 # Tell Docker to copy files from the local file system to a specific folder inside the build image
 COPY ./target/demo-0.0.1-SNAPSHOT.jar /usr/app/
 
