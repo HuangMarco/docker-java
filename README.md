@@ -1,5 +1,24 @@
 # docker-java
 
+# Steps to use docker for java by applying maven plugin
+
+## Prerequisites
+* Git
+* Maven
+    See [here](https://github.com/HuangMarco/knowledge-hub/blob/dev/linux-operation/linux_installation_softwares_components.md)
+* Docker
+
+## Download the souce code
+Use git to pull the source code, then in the root directory:
+```sh
+mvn clean install -Ddocker 
+docker images
+docker run -p 8090:8080 demo-docker 
+docker ps --all
+docker rm -f <container-id>
+docker rm -f $(docker ps -a -q)
+```
+
 # Reference Link
 Initialize a spring boot java project
 https://start.spring.io/
