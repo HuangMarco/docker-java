@@ -20,6 +20,12 @@ docker rm -f <container-id>
 docker rm -f $(docker ps -a -q)
 ```
 
+## Inspect one container
+```sh
+docker container ls --all
+docker inspect <container-id>
+```
+
 # Reference Link
 Initialize a spring boot java project
 https://start.spring.io/
@@ -38,6 +44,11 @@ https://stackabuse.com/docker-a-high-level-introduction/
 <br>
 fabric8io/docker-maven-plugin:
 https://github.com/fabric8io/docker-maven-plugin
+<br>
+https://dmp.fabric8.io/#build-assembly
+
+<br>
+https://codefresh.io/howtos/using-docker-maven-maven-docker/
 
 <br>
 Another guide for docker for java:

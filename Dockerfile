@@ -2,6 +2,11 @@ FROM java:8-jdk-alpine
 
 EXPOSE 8080
 
+
+# Set proxy server, replace host:port with values for your servers
+ENV http_proxy host:port
+ENV https_proxy host:port
+
 # Tell Docker to copy files from the local file system to a specific folder inside the build image
 COPY ./target/demo-0.0.1-SNAPSHOT.jar /usr/app/
 
