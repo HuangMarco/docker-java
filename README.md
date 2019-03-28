@@ -14,6 +14,7 @@ Use git to pull the source code, then in the root directory:
 ```sh
 mvn clean install -Ddocker 
 docker images
+docker image rm demo --force
 docker run -p 8090:8080 demo-docker 
 docker ps --all
 docker rm -f <container-id>
@@ -24,6 +25,11 @@ docker rm -f $(docker ps -a -q)
 ```sh
 docker container ls --all
 docker inspect <container-id>
+```
+
+## Visit the application
+```
+ curl http://localhost:8080/api/all
 ```
 
 # Reference Link
