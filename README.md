@@ -29,7 +29,7 @@ docker inspect <container-id>
 
 ## Visit the application
 ```
- curl http://localhost:8080/api/all
+ curl http://localhost:8999/api/all
 ```
 
 # Reference Link
