@@ -19,6 +19,7 @@ docker run -p 8090:8080 demo-docker
 docker ps --all
 docker rm -f <container-id>
 docker rm -f $(docker ps -a -q)
+docker run -p 8999:8080 demo
 ```
 
 ## Inspect one container
